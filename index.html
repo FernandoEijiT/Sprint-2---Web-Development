@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Modo Estudante - Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <h1>Modo Estudante</h1>
+ 
+  <div class="caixa">
+    <h2>Login</h2>
+    <input type="text" id="user" placeholder="Usuário">
+    <input type="password" id="pass" placeholder="Senha">
+    <button onclick="login()">Entrar</button>
+    <p id="loginMsg"></p>
+  </div>
+
+  <div class="caixa">
+    <h2>Slides - Câmeras</h2>
+    <img id="slide" src="camera-1.jpg" alt="câmera">
+    <br>
+    <button onclick="prevSlide()">⟵ Anterior</button>
+    <button onclick="nextSlide()">Próximo ⟶</button>
+  </div>
+ 
+  <div class="caixa">
+    <h2>Resumo</h2>
+    <input type="text" id="texto" placeholder="Digite algo">
+    <button onclick="resumir()">Resumir</button>
+    <p id="resultado"></p>
+  </div>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
