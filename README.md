@@ -1,1 +1,5 @@
-# Sprint-2---Web-Development
+Integrantes:
+Alexandre Jardim de Souza - RM 573744
+Fernando Eiji Tanaka - RM 570871
+João Pedro Tavares Belon - RM 571392
+Kauã Kanin Kagawa - RM 571461
